@@ -1,0 +1,85 @@
+<nav class="
+  relative
+  w-full
+  flex flex-wrap
+  items-center
+  justify-between
+  py-4
+  bg-gray-800
+  text-gray-100
+  hover:text-gray-100
+  focus:text-gray-100
+  shadow-lg
+  navbar navbar-expand-lg navbar-light
+  ">
+  <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+    <button class="
+      navbar-toggler
+      text-gray-500
+      border-0
+      hover:shadow-none hover:no-underline
+      py-2
+      px-2.5
+      bg-transparent
+      focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+    " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+           class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+        </path>
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+      <lottie-player src="/assets/lottie/lf30_editor_wrvtiaeh.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px; padding: 5px"  loop autoplay></lottie-player>
+      <!-- Left links -->
+      <a class="text-xl text-white pr-2 font-semibold" routerLink="/" href="">Home</a>
+      <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+        <app-mega-menu></app-mega-menu>
+        <li class="nav-item p-2">
+          <a class="nav-link text-white hover:text-yellow-400 focus:text-yellow-400 p-0"
+             routerLink="/nosotros"
+             href="">Quienes Somos</a>
+        </li>
+        <li class="nav-item p-2">
+          <a class="nav-link text-white hover:text-yellow-400 focus:text-yellow-400 p-0"
+             routerLink="/proyectos"
+             href="">Proyectos</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="flex items-center relative">
+      <!-- Icon -->
+      <ul>
+        <li class="flex items-center">
+          <a
+            class="bg-green-600 text-white active:bg-red-700 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+            type="button"
+            href="https://api.whatsapp.com/send?phone=573112231139"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i> Whatsapp
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="flex items-center">
+          <a
+            class="bg-red-600 text-white active:bg-red-700 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+            type="button"
+            download=""
+            href="assets/doc/BrochureServiciosN&SV2.pdf"
+          >
+            <i class="fas fa-arrow-alt-circle-down"></i> Descragar Brochure
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Right elements -->
+  </div>
+</nav>
