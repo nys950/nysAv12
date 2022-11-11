@@ -16,6 +16,7 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
 import { FaqsectionsComponent } from './components/faqsections/faqsections.component';
 import {ProyectosComponent} from "./views/proyectos/proyectos.component";
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     BreadcrumbComponent,
     FaqsectionsComponent,
     ProyectosComponent,
-    GalleryComponent
+    GalleryComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
