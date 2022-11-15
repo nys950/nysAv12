@@ -12,9 +12,20 @@
           <p class="block pt-2 w-full uppercase font-semibold text-gray-700">Montajes Mencanicos</p>
           <div class="relative overflow-hidden bg-no-repeat bg-cover py-4" data-mdb-ripple="true" data-mdb-ripple-color="light">
             <img src="/assets/img/servicios/s1.png" class="w-full rounded-md shadow-lg" alt="Louvre" />
-            <a href="#!">
+            <a
+              [routerLink]="['/servicios/montajes']"
+              routerLinkActive
+            >
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out" style="background-color: rgba(251, 251, 251, 0.2)"></div>
             </a>
+            <div class="flex items-center justify-between mt-1 mb-3">
+              <p class="text-gray-700">
+                Somos especialistas en montajes mecánicos de equipos rotativos y estáticos,
+                tanto verticales como horizontales, así como también nos encargamos de
+                realizar procesos de alineación y ajuste, dejando las máquinas listas para
+                precomisionamiento y comisionamiento.
+              </p>
+            </div>
           </div>
         </div>
         <div class="bg-gray-200">

@@ -1,0 +1,46 @@
+<app-navbar-index></app-navbar-index>
+<nav class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+    <nav class="bg-grey-light rounded-md w-full" aria-label="breadcrumb">
+      <ol class="list-reset flex">
+        <li><a routerLink="/" href="" class="text-gray-500 hover:text-gray-600">Home</a></li>
+        <li><span class="text-gray-500 mx-2">/</span></li>
+        <li><a class="text-gray-500 hover:text-gray-600">Servicios</a></li>
+        <li><span class="text-gray-500 mx-2">/</span></li>
+        <li><a [routerLink]="['/servicios/montajes']" class="text-gray-500 hover:text-gray-600">Montajes mecánicos</a></li>
+      </ol>
+    </nav>
+  </div>
+</nav>
+
+<!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800">
+    <div class="block rounded-lg shadow-lg bg-white">
+      <div class="flex flex-wrap items-center">
+        <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
+          <img src="assets/img/servicios/s1.png" alt="Trendy Pants and Shoes"
+               class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+        </div>
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="text-2xl font-bold mb-4">Montajes Mecánicos</h2>
+            <p class="text-gray-500 mb-6">
+              Somos especialistas en montajes mecánicos de equipos rotativos y estáticos, tanto verticales como horizontales, así como también nos encargamos de realizar procesos de alineación y ajuste, dejando las máquinas listas para precomisionamiento y comisionamiento, adicionalmente brindamos asesoría y soluciones en cuanto a todo el proceso constructivo de montaje de equipos.
+              Contamos con instrumentos de medición de alta precisión tanto para nivelación de equipos como para alineación y también disponemos de personal capacitado en el manejo de dichos equipos.
+              Ofrecemos servicios de asesoría en aplicación de grout y preparación de la placa para el proceso de montaje de las máquinas según corresponda.
+              Finalmente nos encargamos del proceso de liberación de esfuerzos para asegurar el correcto funcionamiento de la máquina.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+<app-footer></app-footer>

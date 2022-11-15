@@ -17,6 +17,8 @@ import { FaqsectionsComponent } from './components/faqsections/faqsections.compo
 import {ProyectosComponent} from "./views/proyectos/proyectos.component";
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { MontajesMecanicosComponent } from './servicios/montajes-mecanicos/montajes-mecanicos.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { IntroComponent } from './components/intro/intro.component';
     FaqsectionsComponent,
     ProyectosComponent,
     GalleryComponent,
-    IntroComponent
+    IntroComponent,
+    MontajesMecanicosComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
