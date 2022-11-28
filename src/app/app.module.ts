@@ -19,6 +19,9 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { MontajesMecanicosComponent } from './servicios/montajes-mecanicos/montajes-mecanicos.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
+import {FormsModule} from "@angular/forms";
+import { AlertsComponent } from './components/alerts/alerts.component';
 
 
 @NgModule({
@@ -39,12 +42,15 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     GalleryComponent,
     IntroComponent,
     MontajesMecanicosComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    SocialMediaComponent,
+    AlertsComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   bootstrap: [AppComponent]
