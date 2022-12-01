@@ -20,8 +20,13 @@ import { IntroComponent } from './components/intro/intro.component';
 import { MontajesMecanicosComponent } from './servicios/montajes-mecanicos/montajes-mecanicos.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from "@angular/forms";
 import { AlertsComponent } from './components/alerts/alerts.component';
+import { LightboxModule } from 'ngx-lightbox';
+import { Proyecto1Component } from './gallery/proyecto1/proyecto1.component';
+import { Proyecto2Component } from './components/gallery/proyecto2/proyecto2.component';
+import { Proyecto3Component } from './components/gallery/proyecto3/proyecto3.component';
+import { Proyecto4Component } from './components/gallery/proyecto4/proyecto4.component';
 
 
 @NgModule({
@@ -44,12 +49,17 @@ import { AlertsComponent } from './components/alerts/alerts.component';
     MontajesMecanicosComponent,
     GaleriaComponent,
     SocialMediaComponent,
-    AlertsComponent
+    AlertsComponent,
+    Proyecto1Component,
+    Proyecto2Component,
+    Proyecto3Component,
+    Proyecto4Component
   ],
     imports: [
         BrowserModule,
         AppRoutingModule,
-        FormsModule
+        FormsModule,
+        LightboxModule
     ],
   providers: [],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
