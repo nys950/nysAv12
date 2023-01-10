@@ -42,4 +42,27 @@
 </script>
 <script src="./node_modules/tw-elements/dist/js/index.min.js" type="application/json"></script>
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBwXcBWteDwUROroDVLevUeoZ6EURlXFcw",
+    authDomain: "nyssolucionesintegrales-46858.firebaseapp.com",
+    projectId: "nyssolucionesintegrales-46858",
+    storageBucket: "nyssolucionesintegrales-46858.appspot.com",
+    messagingSenderId: "253482770006",
+    appId: "1:253482770006:web:4406b136782506d818a5f7",
+    measurementId: "G-DG8TZ451P8"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </html>
